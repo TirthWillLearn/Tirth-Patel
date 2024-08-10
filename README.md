@@ -1,3 +1,10 @@
+<h1 align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?color=FFFFFF&height=18&width=340&vCenter=true&lines=Welcome+To+My+GITHUB+Profile..." > </h1>
+
+<p align="center"><img alt="Coding" width="80%" src="https://raw.githubusercontent.com/dqwe223/dqwe223/main/gif/hi1.gif"></p>
+
+<h1 align="center">Hi 👋 there, I'm TirthPatel</h1>
+
 # Tirth-Patel
 # 💫 About Me:
 🔭 I’m currently working on enhancing my skills in web development and building practical projects.<br><br>👯 I’m looking to collaborate on web development projects that involve creating responsive and user-friendly interfaces.<br><br>🤝 I’m looking for help with refining my understanding of backend development and integrating APIs effectively.<br><br>🌱 I’m currently learning front-end frameworks like React.js and improving my knowledge of HTML, CSS, and JavaScript.<br><br>💬 Ask me about web development technologies, best practices in web design, or how to optimize websites for performance and SEO.<br><br>⚡ Fun fact: The first website ever created is still online! It was built by Tim Berners-Lee and went live on August 6, 1991.
