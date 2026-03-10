@@ -65,7 +65,7 @@ A backend API for a job portal supporting multiple user roles — admin, recruit
 ---
 
 ### 🛒 Multi-Vendor Order Management API *(In Progress)*
-> Node.js • Express • MySQL • JWT Auth
+> Node.js • Express • PostgreSQL • JWT Auth
 
 A complex multi-vendor marketplace API currently under active development.
 
