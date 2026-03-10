@@ -28,6 +28,7 @@ Right now I specialize in:
 - 🌐 **Deploying applications** on Render with databases hosted on AWS RDS
 
 I'm actively looking for a Junior Backend Developer role where I can contribute to real products, work alongside experienced engineers, and continue growing as a developer.
+
 ---
 
 ## 🚀 Projects I've Built
