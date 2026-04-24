@@ -38,6 +38,8 @@ I focus on building projects that reflect real backend challenges — including 
 
 ---
 
+## 📌 Highlight Project
+
 ### 🛒 Multi-Vendor Order Management API  
 > Node.js • TypeScript • PostgreSQL • JWT • RBAC • Docker • AWS  
 [Live](https://order-management-api-ruqo.onrender.com/) | [GitHub](https://github.com/TirthWillLearn/Order-Management-API)
