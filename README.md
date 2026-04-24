@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=24&center=true&vCenter=true&width=500&lines=Welcome+to+My+GitHub+Profile!;Backend+Developer+|+API+Specialist;Building+Real+World+APIs">
+<img src="https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=24&center=true&vCenter=true&width=750&lines=Welcome+to+My+GitHub+Profile!;Backend+Developer+|+Scalable+Backend+Systems;Focused+on+Concurrency%2C+Transactions+%26+Real-Time+Systems">
 </h1>
 <p align="center">
   <img alt="Coding" width="80%" src="https://raw.githubusercontent.com/dqwe223/dqwe223/main/gif/hi1.gif">
 </p>
-<h2 align="center">Hi there, I'm <a href="https://www.linkedin.com/in/tirth-k-patel/">Tirth Patel</a> 👋</h2>
+<h2 align="center">Hi there, I'm <a href="https://www.linkedin.com/in/tirth-k-patel/">Tirth Patel</a> — Backend Developer 👋</h2>
 <p align="center">
   <a href="https://www.tirthdev.in">Portfolio</a> •
   <a href="https://www.linkedin.com/in/tirth-k-patel/">LinkedIn</a>
@@ -14,93 +14,127 @@
 
 ## 💫 About Me
 
-I'm a **self-taught Backend Developer** based in Mumbai, India, passionate about building real-world applications with clean architecture, secure authentication, and scalable API design.
+**Backend Developer focused on building reliable, scalable APIs and real-world backend systems.**
 
-My journey started with frontend — I recreated websites using HTML, CSS, and JavaScript to understand how user-facing systems work. But it was backend development where I truly found my passion. The logic, the structure, the way data flows through a system — that's what drives me.
+📍 Mumbai, India
 
-I don't just follow tutorials. I **build from scratch**, debug real problems, and document everything on GitHub. Every project I work on is an opportunity to go deeper — not just to make it work, but to understand *why* it works.
+I focus on designing systems that handle **data consistency, authentication, and real-time communication** — not just building endpoints, but solving how data behaves under real-world conditions.
 
-Right now I specialize in:
-- 🔧 Building **RESTful APIs** with Node.js and Express.js
-- 🔐 Implementing **JWT authentication**, role-based access control, and secure password hashing
-- 🗄️ Designing **relational databases** with MySQL and PostgreSQL
-- ✅ Writing **clean, modular code** using the MVC architecture pattern
-- 🌐 **Deploying applications** on Render with databases hosted on AWS RDS
 
-I'm actively looking for a Junior Backend Developer role where I can contribute to real products, work alongside experienced engineers, and continue growing as a developer.
+### 🔧 What I Focus On:
+- Designing **REST APIs** with clean architecture and maintainable structure
+- Implementing **authentication & authorization** (JWT, RBAC)
+- Managing **transactions and concurrency** to ensure data consistency
+- Working with **relational databases** (PostgreSQL, MySQL)
+- Building **real-time systems** using WebSockets (Socket.io)
+- Using **Redis** for caching and state management (presence, message caching)
+- Containerizing applications with **Docker**
+- Deploying backend systems using **AWS (EC2, RDS)**
 
+I focus on building projects that reflect real backend challenges — including concurrency, system reliability, and performance — not just CRUD applications.
 ---
 
 ## 🚀 Projects I've Built
 
-### 🔐 Bookstore API — [Live on Render](https://bookstore-api.onrender.com) | [GitHub](https://github.com/TirthWillLearn/book-review-api)
-> Node.js • Express • MySQL • JWT Auth • AWS RDS
+---
 
-A secure and scalable RESTful API for a full-featured bookstore, deployed live on Render with the database hosted on AWS RDS.
+### 🛒 Multi-Vendor Order Management API  
+> Node.js • TypeScript • PostgreSQL • JWT • RBAC • Docker • AWS  
+[Live](https://order-management-api-ruqo.onrender.com/) | [GitHub](https://github.com/TirthWillLearn/Order-Management-API)
 
-**Key Features:**
-- User registration & login with bcrypt password hashing
-- JWT-based authentication with protected routes
-- Admin vs regular user role separation
-- Full CRUD operations for books (title, author, price, category)
-- Pagination for efficient data handling
-- Input validation using Express Validator
-- MVC architecture with centralized error handling
-- Environment variables managed securely with dotenv
+Backend system designed to handle **concurrent order placement and stock consistency in multi-user environments**.
+
+**Key Highlights:**
+- Prevents overselling using PostgreSQL transactions and row-level locking (`SELECT FOR UPDATE`)
+- Ensures atomic operations across `orders`, `order_items`, and `products`
+- Handles concurrent requests safely with database-level consistency guarantees
+- Implements role-based workflows for order lifecycle management
+- Uses Docker for containerization and deployed on AWS (EC2 + RDS)
 
 ---
 
-### 💼 Job Portal API — [GitHub](https://github.com/TirthWillLearn/Job-Portal-api)
-> Node.js • Express • MySQL • JWT Auth
+### 💬 Real-Time Chat API  
+> Node.js • Socket.io • Redis • PostgreSQL • JWT  
+[GitHub](https://github.com/TirthWillLearn/Realtime-Chat-API)
 
-A backend API for a job portal supporting multiple user roles — admin, recruiter, and candidate.
+Real-time messaging backend focused on **presence tracking, message delivery, and efficient data handling**.
 
-**Key Features:**
+**Key Highlights:**
+- Real-time communication using WebSockets (Socket.io)
+- JWT-based authentication at socket connection level
+- Presence tracking using Redis with TTL-based expiration (handles unexpected disconnects)
+- Caches last 50 messages per room for performance optimization
+- Stores messages in PostgreSQL as source of truth
+- Designed as a single-server system with scalability considerations
+
+---
+
+### 🔐 Bookstore API  
+> Node.js • Express • MySQL • JWT • AWS RDS  
+[Live](https://bookstore-api.onrender.com) | [GitHub](https://github.com/TirthWillLearn/book-review-api)
+
+Backend system for managing books, users, and ratings with authentication and structured query handling.
+
+**Key Highlights:**
+- JWT authentication with bcrypt password hashing
+- Role-based access control (admin vs user)
+- Search, filtering, and pagination for efficient querying
+- File upload handling using Multer
+- Clean MVC structure with centralized error handling
+
+---
+
+### 💼 Job Portal API  
+> Node.js • Express • MySQL • JWT  
+[GitHub](https://github.com/TirthWillLearn/Job-Portal-api)
+
+Backend API supporting multiple user roles and secure access control.
+
+**Key Highlights:**
 - Multi-role authentication (admin, recruiter, candidate)
-- Job listings management with full CRUD operations
-- Protected routes based on user role
-- Secure login system with JWT tokens
-- MVC pattern with modular route handling
-
----
-
-### 🛒 Multi-Vendor Order Management API *(In Progress)*
-> Node.js • Express • PostgreSQL • JWT Auth
-
-A complex multi-vendor marketplace API currently under active development.
-
-**Built so far:**
-- Buyer & seller role authentication
-- Product listings management
-- Order management system
-- Secure login and session handling
-
-**Coming next:** Payment flow & deployment on Render + AWS RDS
+- Role-based route protection
+- CRUD operations for job listings
+- Modular architecture for maintainability
 
 ---
 
 ## 💻 Tech Stack
 
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404d59?style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+### ⚙️ Backend
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+### 🗄️ Database
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### ⚡ Real-Time & Caching
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### 🔐 Authentication & Security
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Bcrypt](https://img.shields.io/badge/Bcrypt-003A8F?style=for-the-badge)
+
+### ☁️ DevOps & Deployment
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### 🛠️ Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
-## 🌱 Currently Learning
+## 🌱 Currently Strengthening
 
-| Technology | Why |
-|------------|-----|
-| PostgreSQL | Advanced relational database for production systems |
-| AWS (deeper) | Cloud infrastructure, EC2, S3, RDS |
-| TypeScript | Type safety for scalable backend codebases |
+- Advanced PostgreSQL (transactions, indexing, performance)
+- AWS (EC2, RDS, S3, IAM fundamentals)
+- System design fundamentals (scalability, distributed systems basics)
+- TypeScript for large-scale backend codebases
+- Data structures for backend problem solving
 
 ---
 
