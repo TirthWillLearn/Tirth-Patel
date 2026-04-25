@@ -100,6 +100,12 @@ Backend API supporting multiple user roles and secure access control.
 
 ---
 
+## 🔥 Featured Project
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TirthWillLearn&repo=Order-Management-API&theme=radical)](https://github.com/TirthWillLearn/Order-Management-API)
+
+---
+
 ## 💻 Tech Stack
 
 ### ⚙️ Backend
@@ -145,6 +151,11 @@ Backend API supporting multiple user roles and secure access control.
 ![](https://github-readme-stats.vercel.app/api?username=TirthWillLearn&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=TirthWillLearn&theme=radical&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=TirthWillLearn&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+## 📈 Contribution Graph
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=TirthWillLearn&theme=react-dark)
 
 ---
 
